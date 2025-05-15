@@ -234,4 +234,3 @@ function showExitPopup() {
     window.location.href = "https://fmhy.net/audiopiracyguide"; // Redirects to the specified URL
   }
 }
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
