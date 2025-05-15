@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Picks for You</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="spotify-bg">
+  <header class="navbar">
+    <a href="index.html" class="logo-link">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg" alt="Spotify Logo" class="small-logo" />
+    </a>
+    <button class="exit-button" onclick="showExitPopup()">X</button>
+  </header>
+
+  <main class="song-list-container">
+    <h1>Picks for You</h1>
+    <table class="song-table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Title</th>
+          <th>Plays</th>
+          <th>⏱</th>
+        </tr>
+      </thead>
+      <tbody id="songTableBody"></tbody>
+    </table>
+  </main>
+  <audio id="luther-audio" src="assets/luther.mp3" preload="auto"></audio>
+  <audio id="weird-audio" src="assets/weird.mp3" preload="auto"></audio>
+  <audio id="song" src="song.mp3" preload="auto"></audio>
+  <audio id="barsong-audio" src="assets/barsong.mp3" preload="auto"></audio>
+  <audio id="wonderwall-audio" src="assets/wonderwall.mp3"></audio>
+  <audio id="cough-audio" src="assets/cough.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
+  
+</body>
+</html>
